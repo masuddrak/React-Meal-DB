@@ -1,0 +1,6 @@
+.products{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 50px;
+}
