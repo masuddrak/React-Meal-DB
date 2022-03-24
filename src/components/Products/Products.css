@@ -1,6 +1,12 @@
 .products{
-    display: flex;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
     justify-content: space-between;
     color: #fff;
     margin-top: 50px;
+}
+.products-info{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
 }
