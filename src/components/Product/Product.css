@@ -10,3 +10,7 @@ img{
 .product-info{
     margin: 10px;
 }
+.card-btn{
+    display: flex;
+    align-items: center;
+}

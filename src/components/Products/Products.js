@@ -36,11 +36,17 @@ const Products = () => {
             </div>
             <div className="product-summary mx-3">
                 <p>Add Summay List</p>
-                <p>Items:{card.length}</p>
+                <hr />
+                <p className='mt-3'>Items:<span className='text-warning'>{card.length}</span></p>
+                <hr />
                 <p>Total Price: ${price.toFixed(2)}</p>
+                <hr />
                 <p>Tex:${tex.toFixed(2)}</p>
+                <hr />
                 <p>Grand Total:${grandTotal.toFixed(2)}</p>
+                <hr />
                 <p>Added Items:</p>
+                <hr />
                 {
                     card.map(singCard=><Summary 
                         singCard={singCard}

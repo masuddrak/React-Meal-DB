@@ -1,4 +1,6 @@
 import React from 'react';
+import Details from '../Details/Details';
+
 import './Product.css'
 const Product = ({product,addToCard}) => {
     const {strMealThumb,strMeal}=product
@@ -7,8 +9,10 @@ const Product = ({product,addToCard}) => {
            <div className="product-info">
            <img src={strMealThumb} alt="" /> 
            <h3>{strMeal}</h3>
+           <div className="card-btn">
            <button onClick={()=>addToCard(product)}>Add Card</button>
-           <button className='mx-2'>Details</button>
+           <Details product={product}></Details>
+           </div>
            </div>
         </div>
     );
