@@ -14,3 +14,6 @@ img{
     display: flex;
     align-items: center;
 }
+.card-btn button:hover{
+    background-color: orange;
+}

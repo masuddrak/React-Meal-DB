@@ -10,7 +10,7 @@ const Product = ({product,addToCard}) => {
            <img src={strMealThumb} alt="" /> 
            <h3>{strMeal}</h3>
            <div className="card-btn">
-           <button onClick={()=>addToCard(product)}>Add Card</button>
+           <button  onClick={()=>addToCard(product)}>Add Card</button>
            <Details product={product}></Details>
            </div>
            </div>

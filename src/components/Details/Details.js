@@ -21,7 +21,7 @@ const Details = ({product}) => {
           <Modal.Title>{strMeal}</Modal.Title>
         </Modal.Header>
         <div className='info'>
-        <img src={strMealThumb} alt="" />
+        <img className='my-3' src={strMealThumb} alt="" />
         </div>
         <Modal.Body>{strInstructions}</Modal.Body>
         <Modal.Footer>
